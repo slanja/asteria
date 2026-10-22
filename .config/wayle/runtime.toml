@@ -1,0 +1,71 @@
+[general]
+font-sans = "FreeSans"
+
+[bar]
+scale = 0.800000011920929
+button-variant = "basic"
+button-icon-size = 0.800000011920929
+button-label-weight = "bold"
+button-border-location = "none"
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "hyprland-workspaces",
+    "media",
+]
+center = ["clock"]
+right = [
+    "battery",
+    "bluetooth",
+    "network",
+    "volume",
+    "dashboard",
+]
+
+[styling]
+scale = 1.0
+
+[styling.palette]
+bg = "#2a2b2f"
+surface = "#2a2b2f"
+elevated = "#2a2b2f"
+fg = "#e6dfd5"
+fg-muted = "#e6dfd5"
+primary = "#96ab95"
+red = "#806a85"
+yellow = "#be9b7b"
+green = "#abbcab"
+blue = "#697767"
+
+[modules.bluetooth]
+label-show = false
+
+[modules.clock]
+icon-show = false
+button-bg-color = "transparent"
+dropdown-show-seconds = true
+
+[modules.hyprland-workspaces]
+min-workspace-count = 1
+
+[modules.network]
+label-show = false
+
+[modules.notifications]
+popup-position = "top-center"
+
+[modules.volume]
+label-show = false
+
+[modules.weather]
+location = "Znojmo"
+time-format = "24h"
+
+[osd]
+position = "top"
+margin = 0.0
+
+[wallpaper]
+engine-enabled = false
