@@ -2,4 +2,12 @@
 
 ![Preview](preview.png)
 
-Personal dotfiles built around the Hyprland copositor. Minimalistic and nature inspired look.
+Personal dotfiles built around the Hyprland compositor. Minimalistic and nature inspired look.
+
+## System Specifications
+- **OS:** Arch Linux
+- **WM:** Hyprland
+- **Terminal:** Kitty
+- **File Manager:** HyprFM
+- **App Launcher:** Fuzzel
+- **Status Bar:** Wayle
