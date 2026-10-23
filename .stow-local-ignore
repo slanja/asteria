@@ -1,0 +1,13 @@
+# Ignore documentation and previews
+README.md
+preview.png
+packages.txt
+
+# Ignore Git files
+\.git$
+\.gitignore$
+
+# Ignore backup and development clutter
+.*\.backup.*
+.*\.bak
+node_modules/

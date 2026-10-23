@@ -1,0 +1,35 @@
+# ==========================================
+# PERSONAL AND TEMPORARY BACKUPS
+# ==========================================
+*.backup*
+*.bak
+*~
+.conf.backup.*
+
+# ==========================================
+# SYSTEM AND CACHE FILES
+# ==========================================
+.cache/
+.thumbnails/
+*nohup.out
+*.log
+
+# ==========================================
+# SENSITIVE DATA & CREDENTIALS
+# ==========================================
+*token*
+*secret*
+*.pem
+*.key
+
+# ==========================================
+# DEVELOPMENT TOOLS & COMPILERS
+# ==========================================
+# Node.js (if you compile your Wayle styles with npm/sass)
+node_modules/
+.npm/
+package-lock.json
+
+# Lua development files (for Hyprland config)
+.luarc.json
+luacheck.log
