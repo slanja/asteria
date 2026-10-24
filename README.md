@@ -11,3 +11,4 @@ Personal dotfiles built around the Hyprland compositor. Minimalistic and nature 
 - **File Manager:** HyprFM
 - **App Launcher:** Fuzzel
 - **Status Bar:** Wayle
+- **Monitor Manager:** Hyprmoncfg
