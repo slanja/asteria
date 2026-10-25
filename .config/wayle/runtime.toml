@@ -55,6 +55,7 @@ label-show = false
 
 [modules.notifications]
 popup-position = "top-center"
+popup-urgency-bar = "normal"
 
 [modules.volume]
 label-show = false
