@@ -29,7 +29,8 @@ menu        = "fuzzel"
 
 -- Autostart necessary processes (like notifications daemons, status bars, etc.)
 hl.on("hyprland.start", function ()
-     hl.exec_cmd("hyprpaper & wayle panel start")
+     hl.exec_cmd("hyprpaper & wayle panel start & swaync")
+     hl.exec_cmd("hypridle") -- screen sleep
 end)
 
 
