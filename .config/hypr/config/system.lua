@@ -17,7 +17,7 @@ hl.monitor({
 
 -- Set programs that you use
 terminal    = "kitty"
-fileManager = "hyprfm"
+fileManager = "dolphin"
 menu        = "fuzzel"
 
 
@@ -29,8 +29,10 @@ menu        = "fuzzel"
 
 -- Autostart necessary processes (like notifications daemons, status bars, etc.)
 hl.on("hyprland.start", function ()
+     hl.exec_cmd("hyprpm reload -n")
      hl.exec_cmd("hyprpaper & wayle panel start & swaync")
      hl.exec_cmd("hypridle") -- screen sleep
+     hl.exec_cmd("wvkbd-mobintl --hidden --alpha 255 --bg 2a2b2f --fg 96ab95 -L 250")
 end)
 
 
