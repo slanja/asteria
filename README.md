@@ -4,13 +4,15 @@
 
 Personal dotfiles built around the Hyprland compositor. Minimalistic and nature inspired look.
 
+
+
 ## General information
 
 ### System Specifications
 - **OS:** Arch Linux
 - **WM:** Hyprland
 - **Terminal:** Kitty
-- **File Manager:** HyprFM
+- **File Manager:** Nautilus
 - **App Launcher:** Fuzzel
 - **Status Bar:** Wayle
 - **Monitor Manager:** Hyprmoncfg
@@ -80,3 +82,8 @@ Personal dotfiles built around the Hyprland compositor. Minimalistic and nature 
 <kbd>XF86AudioNext</kbd> - next track
 
 <kbd>XF86AudioPrev</kbd> - previous track
+
+
+
+## Installation
+
