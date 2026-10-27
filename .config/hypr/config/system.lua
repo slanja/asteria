@@ -17,7 +17,7 @@ hl.monitor({
 
 -- Set programs that you use
 terminal    = "kitty"
-fileManager = "dolphin"
+fileManager = "nautilus --new-window"
 menu        = "fuzzel"
 
 
