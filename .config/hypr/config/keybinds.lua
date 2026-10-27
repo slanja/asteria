@@ -67,6 +67,7 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 
 -- Hyprgrass
 if hl.plugin.hyprgrass then
+    -- Open on screen keyboard by swiping from the bottom of screen
     hl.plugin.hyprgrass.bind({
         pattern = { kind = "edge", origin = "d", direction = "u" },
         action  = hl.dsp.exec_cmd("pkill -RTMIN wvkbd-mobintl"),
