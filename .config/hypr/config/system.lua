@@ -67,6 +67,14 @@ hl.config({
         touchpad = {
             natural_scroll = true,
         },
+
+        touchdevice = {
+            output = "eDP-1",
+        },
+
+        tablet = {
+            output = "eDP-1",
+        },
     },
 })
 
