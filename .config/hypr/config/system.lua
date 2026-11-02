@@ -33,7 +33,7 @@ hl.on("hyprland.start", function ()
      hl.exec_cmd("hyprpaper & wayle panel start & swaync")
      hl.exec_cmd("hypridle") -- screen sleep
      hl.exec_cmd("wvkbd-mobintl --hidden --alpha 255 --bg 2a2b2f --fg 96ab95 -L 250")
-     hl.exec_cmd("kitty -o initial_window_width=75c -o initial_window_height=20c --class=\"kitty-welcome\" bash -c \"clear; echo ''; echo '  Welcome " .. os.getenv("USER") .. "'; echo ''; exec bash\"")
+     hl.exec_cmd("kitty -o initial_window_width=75c -o initial_window_height=20c --class=\"kitty-welcome\" bash -c \"clear; echo ''; echo '  ~Welcome " .. os.getenv("USER") .. "~'; echo ''; exec bash\"")
 end)
 
 
