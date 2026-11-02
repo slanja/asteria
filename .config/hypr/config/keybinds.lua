@@ -36,6 +36,12 @@ hl.bind(mainMod .. " + CTRL + right", hl.dsp.window.swap({ direction = "right" }
 hl.bind(mainMod .. " + CTRL + up",    hl.dsp.window.swap({ direction = "up" }))
 hl.bind(mainMod .. " + CTRL + down",  hl.dsp.window.swap({ direction = "down" }))
 
+-- Move window to another screen
+hl.bind(mainMod .. " + ALT + left",  hl.dsp.window.move({ monitor = "left" }))
+hl.bind(mainMod .. " + ALT + right", hl.dsp.window.move({ monitor = "right" }))
+hl.bind(mainMod .. " + ALT + up",    hl.dsp.window.move({ monitor = "up" }))
+hl.bind(mainMod .. " + ALT + down",  hl.dsp.window.move({ monitor = "down" }))
+
 -- Switch workspaces with mainMod + [0-9] (by keycode, works on cz layout)
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]
 for i = 1, 10 do
