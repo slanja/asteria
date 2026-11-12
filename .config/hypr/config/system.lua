@@ -58,7 +58,7 @@ hl.config({
         kb_layout  = "cz,us",
         kb_variant = "",
         kb_model   = "",
-        kb_options = "grp:alt_shift_toggle",
+        kb_options = "grp:win_space_toggle",
         kb_rules   = "",
 
         follow_mouse = 1,
